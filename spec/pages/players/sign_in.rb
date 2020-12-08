@@ -9,6 +9,8 @@ module Pages
       element :password_field, "#new_player input[name='player[password]']"
       element :login_button, "#new_player input[type=submit]"
 
+      element :registration_link, "a[href='/players/sign_up']"
+
       element :alert, ".alert"
     end
   end
