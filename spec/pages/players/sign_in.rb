@@ -10,6 +10,7 @@ module Pages
       element :login_button, "#new_player input[type=submit]"
 
       element :registration_link, "a[href='/players/sign_up']"
+      element :forgotten_password_link, "a[href='/players/password/new']"
 
       element :alert, ".alert"
     end
